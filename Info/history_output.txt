@@ -1,0 +1,166 @@
+    1  $ brew install git
+    2  brew install git
+    3  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    4  brew install git
+    5  git --version
+    6  sudo apt update
+    7  git config --global user.name "Your Name"
+    8  git config --global user.email "your-email@example.com"
+    9  git config --global user.name "Monicae"
+   10  git config --global user.email "mlh251@gsbs.rutgers.edu"
+   11  git --version
+   12  sudo port install git
+   13  git clone <repository_url>
+   14  git clone git@github.com:compbiomed/RNA_Seq.git
+   15  git clone https://github.com/compbiomed/singleCellTK.git
+   16  library(readr)
+   17  install.packages("readr")
+   18  install.packages("ggplot")
+   19  aws s3 --no-sign-request sync s3://human-pangenomics/T2T/CHM13/
+   20  aws s3 --no-sign-request sync s3://human-pangenomics/T2T/CHM13/ .
+   21  pip install awscli
+   22  aws configure
+   23  aws s3 --no-sign-request sync s3://human-pangenomics/T2T/CHM13/ .
+   24  aws configure
+   25  aws s3 --no-sign-request sync s3://human-pangenomics/T2T/CHM13/ .
+   26  echo "hello world"
+   27  print("hello world")
+   28  pwd
+   29  ls
+   30  ls-l
+   31  ls -l
+   32  ls
+   33  cd desktop
+   34  ls
+   35  cd ..
+   36  cd desktop
+   37  cd phd
+   38  cd ~
+   39  git clone https://github.com/username/repository-name.git
+   40  git clone git clone https://github.com/username/repository-name.git
+   41  git clone https://github.com/wevanjohnson/2025_Spring_FDS.git
+   42  ls
+   43  cd 2025_Spring_FDS
+   44  ls
+   45  cd homework
+   46  ls
+   47  cd ~
+   48  LS
+   49  cd downloads
+   50  ls
+   51  unzip homework2.tar.gz
+   52  tar -xvzf homework2.tar.gz
+   53  cd ~
+   54  mkdir data_science
+   55  ls
+   56  cd data_science
+   57  mkdir homework
+   58  ls
+   59  cd homework
+   60  cd~
+   61  cd ~
+   62  mv downloads/homework/homework1 data_science/homework
+   63  cd data_science
+   64  mv Hmwk2_Answer homework1
+   65  ls
+   66  cd homework
+   67  ls
+   68  mv Hmwk2_Answer homework1
+   69  ls
+   70  tar -cvzf homework2.tar.gz homework2
+   71  tar -cvzf homework1.tar.gz homework1
+   72  cd homework1
+   73  ls
+   74  ls -1
+   75  chmod u+rwx TB_microbiome_data.txt 
+   76  chmod o-w TB_microbiome_data.txt 
+   77  chmod a=rwx TB_microbiome_data.txt 
+   78  chmod u=rwx, o= TB_microbiome_data.txt
+   79  chmod u+rwx,o= TB_microbiome_data.txt 
+   80  ls -1
+   81  grep "FC" TB_nanostring.txt
+   82  grep -c "FC" TB_nanostring.txt
+   83  grep -in "FC" TB_nanostring.txt
+   84  grep -n "FC" TB_nanostring.txt
+   85  grep -c "FC" TB_nanostring.txt
+   86  grep -c "Yes" nanostring_annotation.txt
+   87  grep -c "coronavirus" viral.fasta
+   88  grep -c "SARS-COV-2" viral.fasta
+   89  cd/homework
+   90  cd ..
+   91  grep -i -h -r "a" homework1/ --exclude="Hmwk2_Answer" | wc -l
+   92  grep -i -r "a" homework1/ --exclude="Hmwk2_Answer" | tr -cd 'aA' | wc -c
+   93  cd homework1
+   94  grep -i "^Staphylococcus" TB_microbiome_data.txt
+   95  grep -i "^Mycobacterium tuberculosis" TB_microbiome_data.txt
+   96  Mycobacterium tuberculosis      7       27      8       186     6       0       1283    7       0       32      0       0       232       0       0       31      0       0       90      0       395     0       0       0       0       0       0       0       00
+   97  grep -c "Streptococcus" TB_microbiome_data.txt
+   98  Less -S viral.fasta 
+   99  ls
+  100  cd data_science/homework/homework1
+  101  less -N +/coronavirus viral.fasta
+  102  vim nanostring_annotation.txt
+  103  1s -1 | less
+  104  ls
+  105  ls -1 | less
+  106  ls -l > directory_contents.txt
+  107  ls -l » directory_contents.txt
+  108  -rw-r--r--@ 1 monicahruzd  staff  615 Jan 17 12:07 directory_contents.tx
+  109  cat directory_contents.txt | head -3 | tail -2
+  110  ls | grep -c html
+  111  ls | wc -1
+  112  ls | wc -l
+  113  cat file1.txt file2.txt > file3.txt
+  114  data <- c(1, 2, 3, 4, 5)
+  115  awk '{print Streptococcus}' TB_microbiome_data.txt 
+  116  awk '{print $1}' TB_microbiome_data.txt
+  117  awk '{print 2}' TB_microbiome_data.txt 
+  118  cd desktop/telometer-1.0
+  119  cat chm13v2.0.fa stong_subtels.fa > t2t-and-subtel.fa
+  120  samtools faidx t2t-and-subtel.fa 
+  121  cat chm13v2.0.fa stong_subtels.fa > t2t-and-subtel.fa
+  122  samtools faidx t2t-and-subtel.fa
+  123  cat chm13v2.0.fa stong_subtels.fa > t2t-and-subtel.fa
+  124  samtools faidx t2t-and-subtel.fa
+  125  less t2t-and-subtel.fa
+  126  sed -n '808p' t2t-and-subtel.fa
+  127  samtools faidx chm13v2.0.fa
+  128  samtools faidx stong_subtels.fa
+  129  grep -n '[^ATCGN>' t2t-and-subtel.fa
+  130  samtools faidx stong_subtels.fa
+  131  grep -n '[^ATCGN>' t2t-and-subtel.fa
+  132  grep -n '[^ATCGN>' t2t-and-subtel.fa]
+  133  grep -n '[^ATCGN]' t2t-and-subtel.fa
+  134  grep -n '[^ATCGNatcgn]' t2t-and-subtel.fa
+  135  grep -v '^>' t2t-and-subtel.fa | grep -n '[^ATCGNatcgn]'
+  136  grep -n '[^ATCGNatcgn>]' t2t-and-subtel.fa
+  137  samtools faidx t2t-and-subtel.fa
+  138  samtools faidx t2t-and-subtel.fa chr1:1000-2000
+  139  minimap2 -ax map-ont
+  140  -t 16
+  141  minimap2 ax map-ont -t 16
+  142  minimap2 -ax map-ont
+  143  -t 16
+  144  install minimap
+  145  -t 16
+  146  minimap2 -ax map-ont  echo 706C96C1 && echo $HISTCONTROL && /usr/bin/env && echo 2CACCE5D
+  147  -t 16  echo 706C96C1 && echo $HISTCONTROL && /usr/bin/env && echo 2CACCE5D
+  148  -N5 \ -Y -L  echo 706C96C1 && echo $HISTCONTROL && /usr/bin/env && echo 2CACCE5D
+  149  t2t-and-subtel.fa \ SRR28160677.fastq -o output.sam
+  150  minimap2 -ax map-ont -t 16 t2t-and-subtel.fa SRR28160677.fastq -o output.sam
+  151  head output.sam
+  152  samtools index sorted_output.bam
+  153  samtools view -Sb output.sam > output.bam
+  154  samtools sort output.bam -o sorted_output.bam
+  155  samtools index sorted_output.bam
+  156  telometer -b /sorted_output.bam -o /output.tsv -m [1000] -g [100]
+  157  conda install -c bioconda pysam
+  158  telometer -b minimal_tels.bam -o output.tsv
+  159  telometer -version
+  160  telometer -b minimal_tels.bam -o output.tsv
+  161  telometer -b sorted_output.bam -o output2.tsv
+  162  history
+  163  telometer -b sorted_output.bam -o output2.tsv
+  164  command | tee output.txt
+  165  telometer -b sorted_output.bam -o output2.tsv
+  166  history | tee history_output.txt
